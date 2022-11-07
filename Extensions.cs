@@ -1,7 +1,7 @@
-using Catalog.Dtos;
-using Catalog.Entities;
+using Fantasy_Catalog.Dtos;
+using Fantasy_Catalog.Entities;
 
-namespace Catalog
+namespace Fantasy_Catalog
 {
   public static class Extensions
   {

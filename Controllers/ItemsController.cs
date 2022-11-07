@@ -1,9 +1,9 @@
-using Catalog.Dtos;
-using Catalog.Entities;
-using Catalog.Repositories;
+using Fantasy_Catalog.Dtos;
+using Fantasy_Catalog.Entities;
+using Fantasy_Catalog.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Catalog.Controllers
+namespace Fantasy_Catalog.Controllers
 {
   [ApiController]
   [Route("items")]

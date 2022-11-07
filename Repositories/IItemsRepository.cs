@@ -1,6 +1,6 @@
-using Catalog.Entities;
+using Fantasy_Catalog.Entities;
 
-namespace Catalog.Repositories
+namespace Fantasy_Catalog.Repositories
 {
     public interface IItemsRepository
   {

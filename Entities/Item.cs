@@ -1,4 +1,4 @@
-namespace Catalog.Entities 
+namespace Fantasy_Catalog.Entities 
 {
   public record Item
   {

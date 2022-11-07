@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Catalog.Dtos
+namespace Fantasy_Catalog.Dtos
 {
   public record UpdateItemDto
   {
