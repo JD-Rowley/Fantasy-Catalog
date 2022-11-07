@@ -1,4 +1,5 @@
 using Fantasy_Catalog.Entities;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace Fantasy_Catalog.Repositories
@@ -32,9 +33,8 @@ namespace Fantasy_Catalog.Repositories
 
     public IEnumerable<Item> GetItems()
     {
-      throw new NotImplementedException();
+      return itemsCollection.Find(new BsonDocument()).ToList();
     }
-
     public void UpdateItem(Item item)
     {
       throw new NotImplementedException();
